@@ -8,8 +8,9 @@ import wrappers.ProjectWrappers;
 
 public class LaunchGoogle extends ProjectWrappers {
 
-	public LaunchGoogle(RemoteWebDriver dr, ExtentTest Test) {
+	public LaunchGoogle(RemoteWebDriver driver, ExtentTest Test) {
 		super(dr, Frt);
+		this.driver=driver;
 	
 		// TODO Auto-generated constructor stub
 	}
