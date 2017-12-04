@@ -8,7 +8,7 @@ import wrappers.ProjectWrappers;
 
 public class LaunchGoogle extends ProjectWrappers {
 
-	public LaunchGoogle(RemoteWebDriver driver, ExtentTest Test) {
+	public LaunchGoogle(RemoteWebDriver dr, ExtentTest Frt) {
 		super(dr, Frt);
 		this.driver=driver;
 	
